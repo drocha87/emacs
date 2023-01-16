@@ -65,4 +65,8 @@
   :init
   (savehist-mode))
 
+(use-package magit :straight t)
+
+(use-package move-text :straight t :init (move-text-default-bindings))
+
 (global-set-key [f5] #'compile)
