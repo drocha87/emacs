@@ -5,3 +5,6 @@ history
 tramp
 straight
 /auto-save-list/
+/transient/
+*.elc
+/package-quickstart.el
